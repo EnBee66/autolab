@@ -3,6 +3,7 @@
 - name: DEPLOY as AS3 declaration
   hosts: localhost
   connection: local
+  #connection: httpapi
   gather_facts: false
 
   vars:
